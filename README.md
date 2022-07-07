@@ -1,12 +1,13 @@
-# Module name using following format (<provider>-terraform-<description>, example: azure-terraform-vnet) 
+# terraform-azurerm-firewall
 
-<Module description>
+Deploys an Azure Firewall
+
+Based of original module: https://github.com/kumarvna/terraform-azurerm-firewall
 
 It supports creating:
 
 - list resources created by module
 
-<Describe any submodules> 
 
 ## Usage Examples
 You can go to the tests folder, or review the examples folder: [examples](./examples)
@@ -36,21 +37,6 @@ The following dependencies must be installed on the development system:
 Azure  
 - [Terraform Provider for Azure](https://github.com/hashicorp/terraform-provider-azurerm)
 - CLI Tool [az](https://docs.microsoft.com/en-us/cli/azure/)
-
-AWS  
-- [Terraform Provider for AWS](https://github.com/hashicorp/terraform-provider-aws)
-- CLI Tool [aws-cli](https://aws.amazon.com/cli/)
-
-GCP  
-- [Terraform Provider for GCP](https://github.com/hashicorp/terraform-provider-google)
-- [Terraform Provider for GCP Beta](https://github.com/terraform-providers/terraform-provider-google-beta)
-- CLI Tool [gcloud](https://cloud.google.com/sdk/gcloud/)
-
-
-<Any configuration needed on cloud plartform such as:>
-- Service Principals
-- IAM Roles
-- Service Accounts
 
 
 ## Contributing
